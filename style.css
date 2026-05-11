@@ -63,7 +63,6 @@ a:active{
     justify-content: center;
     align-items: center;
     flex: 1;
-    width: 250px;
     height: 165px;
     font-size: 12px;
     background-color: gray;
@@ -91,6 +90,7 @@ a:active{
     padding: 2px 19px;
     border-radius: 5px;
     border-style: none;
+    cursor: pointer;
 }
 
 .information{
@@ -125,7 +125,7 @@ a:active{
 }
 
 
-.pharagraph{
+.paragraph{
     display: flex;
     padding: 70px 0;
     justify-content: center;
@@ -134,7 +134,6 @@ a:active{
 
 .quote{
     width: 500px;
-    height: 130px;
 }
 
 .thor{
@@ -180,6 +179,7 @@ a:active{
     border-radius: 5px;
     height: fit-content;
     padding: 2px 19px;
+    cursor: pointer;
 }
 
 .footer{
@@ -196,4 +196,8 @@ a:active{
     font-size: 11px;
     margin: 5px 0;
     color: rgb(185, 185, 185)
+}
+
+button:active{
+    color: rgb(201, 201, 201);
 }
