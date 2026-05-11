@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     gap: 25px;
-    padding: 50px 0px;
+    padding: 60px 0px;
 }
 
 ul{
@@ -80,14 +80,120 @@ a:active{
 }
 
 .subtext{
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 11px;
+    margin: 5px 0;
+    color: rgb(185, 185, 185)
 }
 
-button{
-    background-color: rgb(0, 110, 255);
+.sign_top{
+    background-color: rgb(47, 137, 255);
     color: white;
     padding: 2px 19px;
     border-radius: 5px;
     border-style: none;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(47, 137, 255);
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.card{
+    max-width: 100px;
+}
+
+
+.pharagraph{
+    display: flex;
+    padding: 70px 0;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+}
+
+.quote{
+    width: 500px;
+    height: 130px;
+}
+
+.thor{
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.thor_q{
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: "Playfair Display", sans-serif;
+    color:rgb(70, 70, 70);
+}
+
+.login{
+    padding: 50px 100px;
+}
+
+.login_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 70px;
+    background-color: rgb(47, 137, 255);
+    border-radius: 8px;
+}
+
+.sign_text{
+    color: white;
+}
+
+.sign_title{
+    font-weight: 600;
+}
+
+.sign_bottom{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 2px 19px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 44, 54);
+}
+
+.TOP{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 11px;
+    margin: 5px 0;
+    color: rgb(185, 185, 185)
 }
